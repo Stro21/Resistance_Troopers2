@@ -1,0 +1,59 @@
+<div class="cuerpo">
+<form action="/login" method="post">	
+	<div>
+		<img class="contiene-logo" src="/images/logo.png" width="400px">
+	</div>
+
+	<div class="caja">
+		<div for="user" class="elemento texto">
+		Usuario
+		</div>	
+
+		<div class="elemento">
+		<input id="user" name="user" class="input-text" type="text" value="" autofocus=""/>
+		</div>	
+
+		<div class="elemento error">
+		{{ this.ingrese_usuario }}
+		</div>	
+	</div>
+
+	<div class="caja">
+		<div class="elemento texto">
+		Clave
+		</div>	
+
+		<div for="password" class="elemento">
+		<input id="password" name="password" class="input-text" type="password"/>
+		</div>	
+
+		<div class="elemento error">
+		{{ this.ingrese_clave }}
+		</div>	
+	</div>
+
+	<div class="caja">
+		<div class="elemento">
+		<input id="ingresar" class="boton" value="INGRESAR" type="submit"/>
+		</div>	
+	</div>
+
+	<div class="caja">
+		{{# each items }}
+		<div class="elemento texto">
+		Informaci&oacute;n
+		</div>	
+		<div class="info">
+			<div>Id: {{ this.id }}</div>
+			<div>Usuario: {{ this.user }}</div>
+			<div>Nombre: {{ this.nombre }}</div>
+			<div>Apellidos: {{ this.apellidos }}</div>
+			<div>nivelmilitar: {{ this.nivelmilitar }}</div>
+			<div>Usar APP: {{ this.habilitado_para_usar_app }}</div>
+			<div>password: {{ this.password }}</div>
+			{{/each}}
+		</div>
+	</div>
+	<div class="separador"></div>
+</form>
+</div>

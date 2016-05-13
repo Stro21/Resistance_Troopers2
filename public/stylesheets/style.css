@@ -1,0 +1,101 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(/images/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover; 
+	background-size: cover;
+}
+.titulo{
+	background: rgba(71, 71, 71, 0.75);
+	text-align: center;
+	color: black;
+	font-size: 3em;
+	margin-bottom: 30px;
+	margin-top:25%;
+}
+.cuerpo{
+	width: 400px;
+	margin: 10% auto 0 auto;
+}
+.elemento{
+	width: 100%;
+}
+.input-text{
+	font-size: 1.2em;
+	height: 30px;
+	width: 100%;
+	padding: 3px;
+	color: #848484;
+}
+.texto{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding: 5px;
+	color: white;
+	width: 100%;
+	background: rgba(71, 71, 71, 0.75);
+	font-size: 1.5em;
+	margin-top: 15px;
+}
+.contiene-logo{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=85);	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.85;	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.80;
+	opacity: 0.85;
+	border-radius: 10px;
+}
+.caja{
+	display: block;
+}
+.boton{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7cfdf+0,23538a+100;Blue+3d+%238 */
+background: #a7cfdf; /* Old browsers */
+background: -moz-linear-gradient(top, #a7cfdf 0%, #23538a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a7cfdf 0%,#23538a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
+	cursor: pointer;
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 1.5em;
+	width: 411px;
+	color: white;
+	font-weight: bold;
+	border-radius: 4px;
+}
+.error{
+	font-size: 1em;
+	color: #FF0000;
+	background: rgba(0, 0, 0, 0.85);
+	padding: 5px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.info{
+	width: 400px;
+	background: rgba(0, 0, 0, 0.85);
+	color: white;
+	padding: 5px;
+}
+.separador{
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
